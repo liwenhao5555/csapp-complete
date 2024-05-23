@@ -14,6 +14,6 @@ hello: hello.c
 	objdump -d hello.o > hello.64d
 
 clean:
-	rm -f $(PROGS) hello *.o *.64s *.64d *~
+	rm -f $(PROGS) hello *.o *.64s *.64d *~ *.s *.64sa
 
 
